@@ -394,9 +394,11 @@ export default function Portfolio() {
       <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact Me</h2>
-              <FadeIn delay={600}>
+              
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
+        <FadeIn delay={600}>
           {/* เบอร์โทร */}
+          
           <div className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition">
             <FaPhoneAlt className="text-2xl" />
             <span className="text-lg">092-259-9048</span>
@@ -414,8 +416,8 @@ export default function Portfolio() {
             <FaFacebook className="text-2xl" />
             <span className="text-lg">Theesud Chuchaiwattanasak</span>
           </a>
+          </FadeIn>
         </div>
-        </FadeIn>
       </div>
     </section>
 
