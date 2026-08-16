@@ -390,11 +390,11 @@ export default function Portfolio() {
 
 
       {/* Contact */}
-      <FadeIn delay={600}>
+
       <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact Me</h2>
-        
+              <FadeIn delay={600}>
         <div className="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-12">
           {/* เบอร์โทร */}
           <div className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition">
@@ -415,9 +415,10 @@ export default function Portfolio() {
             <span className="text-lg">Theesud Chuchaiwattanasak</span>
           </a>
         </div>
+        </FadeIn>
       </div>
     </section>
-</FadeIn>
+
 
       {/* SECTION 4: FOOTER */}
 
