@@ -321,6 +321,7 @@ export default function Portfolio() {
       </section>
 
       {/* SECTION 3: DYNAMIC PROJECTS */}
+
       <section className="py-16 px-6 md:px-20 bg-gray-50 min-h-200">
         <div className="max-w-6xl mx-auto">
           <div key={activeTab} className="space-y-24 pt-10">
@@ -347,6 +348,8 @@ export default function Portfolio() {
         </div>
       </section>
 
+
+      <FadeIn>
     {/* คะแนน Toeic */}   
      <section className="py-12 bg-white">
       <div className="container mx-auto px-4 max-w-2xl">
@@ -383,9 +386,11 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
+</FadeIn>
 
 
       {/* Contact */}
+      <FadeIn>
       <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact Me</h2>
@@ -412,15 +417,17 @@ export default function Portfolio() {
         </div>
       </div>
     </section>
-
+</FadeIn>
 
       {/* SECTION 4: FOOTER */}
+            <FadeIn>
       <footer className="bg-black text-white py-10 text-center">
         <p className="text-sm text-gray-400">
           Portfolio Website by Theesud Chuchaiwattanasak (Ray).<br />
           Designed with Next.js & Tailwind CSS.
         </p>
       </footer>
+      </FadeIn>
 
     </main>
   );
