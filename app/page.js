@@ -420,7 +420,7 @@ export default function Portfolio() {
 </FadeIn>
 
       {/* SECTION 4: FOOTER */}
-            <FadeIn delay={800}>
+            <FadeIn>
       <footer className="bg-black text-white py-10 text-center">
         <p className="text-sm text-gray-400">
           Portfolio Website by Theesud Chuchaiwattanasak (Ray).<br />
