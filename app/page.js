@@ -347,7 +347,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-
+    {/* คะแนน Toeic */}   
      <section className="py-12 bg-white">
       <div className="container mx-auto px-4 max-w-2xl">
         <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Language & Communication</h2>
