@@ -203,10 +203,10 @@ export default function Portfolio() {
         "การทดลองเขียน SQL เพื่อทำความเข้าใจการทำงานเบื้องต้น สร้างและเรียกใช้ Database จาก MySQL",
       tech: "SQL, MySQL",
       images: [
-        "/image/SQL_01.jpg",
-        "/image/SQL_02.jpg",
-        "/image/SQL_03.jpg",
-        "/image/SQL_04.jpg",
+        "/image/Sql_01.jpg",
+        "/image/Sql_02.jpg",
+        "/image/Sql_03.jpg",
+        "/image/Sql_04.jpg",
       ],
     },
     {
