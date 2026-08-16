@@ -349,7 +349,7 @@ export default function Portfolio() {
       </section>
 
 
-      <FadeIn>
+      <FadeIn delay={200}>
     {/* คะแนน Toeic */}   
      <section className="py-12 bg-white">
       <div className="container mx-auto px-4 max-w-2xl">
@@ -390,7 +390,7 @@ export default function Portfolio() {
 
 
       {/* Contact */}
-      <FadeIn>
+      <FadeIn delay={400}>
       <section className="py-12 bg-gray-50">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl font-bold text-gray-800 mb-8">Contact Me</h2>
@@ -420,7 +420,7 @@ export default function Portfolio() {
 </FadeIn>
 
       {/* SECTION 4: FOOTER */}
-            <FadeIn>
+            <FadeIn delay={600}>
       <footer className="bg-black text-white py-10 text-center">
         <p className="text-sm text-gray-400">
           Portfolio Website by Theesud Chuchaiwattanasak (Ray).<br />
